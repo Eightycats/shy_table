@@ -1,0 +1,17 @@
+.shyParent {
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+}
+
+.shyContainer {
+    display: table;
+}
+
+.shyRow {
+    position: absolute;
+    width: 100%;
+    /* hide initially */
+    display: none;
+}

@@ -1,0 +1,31 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    background: #AAAAAA;
+}
+
+.cell {
+
+}
+
+.one {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 20%;
+    background: #FFAAAA;
+}
+
+.two {
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 50%;
+    background: #AAFFAA;
+}
+
+.three {
+    flex-grow: 1;
+    flex-shrink: 0;
+    width: 30%;
+    background: #AAAAFF;
+}
